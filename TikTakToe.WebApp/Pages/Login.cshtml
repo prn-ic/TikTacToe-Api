@@ -1,0 +1,18 @@
+﻿@page
+@model TikTakToe.WebApp.Pages.LoginModel
+@{
+}
+
+<div class="text-center">
+    <form method="post" asp-page-handler="Game">
+        <label>
+            Игрок 1 (x): 
+            <input type="text" id="firstPlayer"/>
+        </label>
+        <label>
+            Игрок 2 (o):
+            <input type="text" id="secondPlayer" />
+        </label>
+        <button type="submit"></button>
+    </form>
+</div>

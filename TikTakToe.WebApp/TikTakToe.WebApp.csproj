@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TikTakToe.DataAccess.EntityFramework\TikTakToe.DataAccess.EntityFramework.csproj" />
+    <ProjectReference Include="..\TikTakToe.Domain\TikTakToe.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
